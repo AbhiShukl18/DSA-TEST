@@ -63,6 +63,23 @@
 
 // Question 6:Write a JavaScript function that takes a number as input and returns true if it is a prime number, otherwise false.
 
+// function Prime(number) {
+//     if (number <= 1) {
+//         return false; 
+//     }
+
+//     if (number == 2) {
+//         return true; 
+//     }
+//     for (let i = 2; i < number; i++) {
+//         if (number % i === 0) {
+//             return false; 
+//         }
+//     }
+    
+//     return true; 
+// }
+// console.log(Prime(9));  
 
 
 // Question 7:Create a JavaScript program that calculates the sum of all numbers from 1 to 1000 that are divisible by both 3 and 5.
